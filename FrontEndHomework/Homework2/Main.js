@@ -15,10 +15,10 @@
 
     var html =
         '<div style="border: 1px solid black;"><p>NickName: ' +
-        domNickname.value + "</p><p> Time: " +
-        new Date().toISOString() + "</p><p> Title: " +
+        domNickname.value + "</p><p> Title: " +
         domTitle.value + "</p><p> Message: " +
-        domMessage.value + "</p></div>";
+        domMessage.value + "</p><p> Time: " +
+        new Date().toISOString() + "</p></div>";
 
     document.getElementById("divContext").innerHTML += html;
 }
